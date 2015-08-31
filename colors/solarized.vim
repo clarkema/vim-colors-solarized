@@ -974,6 +974,15 @@ exe "hi! pandocMetadata"                 .s:fg_blue   .s:bg_none   .s:fmt_bold
 hi! link pandocMetadataTitle             pandocMetadata
 
 "}}}
+" Syntastic support "{{{
+" ---------------------------------------------------------------------
+
+exe "hi! SyntasticErrorSign"        .s:fmt_none   .s:fg_base02 .s:bg_red
+exe "hi! SyntasticWarningSign"      .s:fmt_none   .s:fg_base02 .s:bg_yellow
+exe "hi! SyntasticStyleErrorSign"   .s:fmt_none   .s:fg_red    .s:bg_base02
+exe "hi! SyntasticStyleWarningSign" .s:fmt_none   .s:fg_yellow .s:bg_base02
+
+"}}}
 " Utility autocommand "{{{
 " ---------------------------------------------------------------------
 " In cases where Solarized is initialized inside a terminal vim session and 
